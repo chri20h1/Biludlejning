@@ -4,6 +4,7 @@
   <div class="loginBoks">
       <h1>Opret dig her</h1>
       <form action="includes/signup.inc.php" method="post">
+        <input type="text" class="input-box" name="social" placeholder="Dit CPR nummer">
         <input type="text" class="input-box" name="name" placeholder="Dit fulde navn">
         <input type="email" class="input-box" name="email" placeholder="Din email">
         <input type="text" class="input-box" name="uid" placeholder="Dit username">
