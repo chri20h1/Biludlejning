@@ -10,6 +10,11 @@
         <input type="text" class="input-box" name="uid" placeholder="Dit username">
         <input type="password" class="input-box" name="pwd" placeholder="Dit password">
         <input type="password" class="input-box" name="pwdrepeat" placeholder="Gentag password">
+        <input type="date" class="input-box" name="birthday" placeholder="Din fødselsdag">
+        <input type="text" class="input-box" name="sex" placeholder="Dit køn">
+        <input type="text" class="input-box" name="address" placeholder="Din adresse">
+        <input type="text" class="input-box" name="postal" placeholder="Postnummer">
+        <input type="text" class="input-box" name="city" placeholder="By">
         <p><span><input type="checkbox" id="check" onclick="signupKnapFunction()"></span> Jeg acceptere betingelsesvilkårene</p>
         <div id="hbOption">
           <button type="submit" class="signup-submit" id="signupKnap" name="submit">Opret dig</button>

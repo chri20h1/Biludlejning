@@ -9,6 +9,11 @@ if (isset($_POST["submit"])) {
   $username = $_POST["uid"];
   $pwd = $_POST["pwd"];
   $pwdRepeat = $_POST["pwdrepeat"];
+  $birthday = $_POST["birthday"];
+  $sex = $_POST["sex"];
+  $address = $_POST["address"];
+  $postal = $_POST["postal"];
+  $city = $_POST["city"];
 
   // Derefter kører vi en masse "error handlers", som fanger fejl brugeren har begået såsom brugt brugernavn eller tomme felter
   // Funktionerne kan findes i functions.inc.php
@@ -20,7 +25,7 @@ if (isset($_POST["submit"])) {
   // Vi har sat funktionerne til "!== false" da "=== true" har en risiko for, at give os et forkert resultat
 
   // Hvis der er tomme felter --> exit
-  if (emptyInputSignup($social, $name, $email, $username, $pwd, $pwdRepeat) !== false) {
+  if (emptyInputSignup($social, $name, $email, $username, $pwd, $pwdRepeat, $birthday, $sex, $address, $postal, $city) !== false) {
     header("location: ../signup.php?error=emptyinput");
 		exit();
   }
@@ -48,7 +53,7 @@ if (isset($_POST["submit"])) {
   // Hvis vi når hertil betyder det, at der er ingen fejl begået af brugeren ved signup
 
   // Nu indsætter vi brugeren i databasen "users"
-  createUser($conn, $social, $name, $email, $username, $pwd);
+  createUser($conn, $social, $name, $email, $username, $pwd, $birthday, $sex, $address, $postal, $city);
 
 } else {
 	header("location: ../signup.php");
