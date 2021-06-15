@@ -7,7 +7,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tietgen GP</title>
+    <title>Torbens Biler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/reset.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
@@ -21,7 +21,7 @@
       <div class="site-header__top">
         <div class="wrapper site-header__wrapper">
           <a href="index.php" class="logopic">
-              <img src="img/tietgenLogo.png" alt="logo" style="width: 30px; height: 30px;">
+              <img src="img/torbensbilerLogo.png" alt="logo" style="width: 80px; height: 30px;">
           </a>
           <div class="site-header__start">
             <ul class="">
@@ -30,7 +30,7 @@
             </ul>
           </div>
           <div class="site-header__middle">
-            <a href="index.php" class="brand">Tietgen Game Portal</a>
+            <a href="index.php" class="brand">Torbens Biler</a>
           </div>
 
 
