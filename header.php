@@ -61,11 +61,9 @@
               </button>
               <ul class="nav__wrapper">
                 <li class="nav__item"><a href="index.php">Hjem</a></li>
-                <li class="nav__item"><a href="games.php">Spil</a></li>
-                <li class="nav__item"><a href="leaderboard.php">Leaderboard</a></li>
-                <li class="nav__item"><a href="chat.php">Chat</a></li>
+                <li class="nav__item"><a href="inventar.php">Biler</a></li>
+                <li class="nav__item"><a href="udlejninger.php">Mine Udlejninger</a></li>
                 <li class="nav__item"><a href="about.php">Om os</a></li>
-                <li class="nav__item"><a href="skitse.php">Temp site</a></li>
               </ul>
             </nav>
           </div>

@@ -21,7 +21,7 @@
 
       if ($resultCheck > 0) {
          while ($row = mysqli_fetch_assoc($result)){
-           echo "<span class='profilInfo'>" . "Navn:.......... " . "<div class='profilInfoFed'>" . "{$row['usersName']}" . "</div><br>" . "Klasse:........ " . "<div class='profilInfoFed'>" . "{$row['usersKlasse']}" . "</div><br>" . "Username:... " . "<div class='profilInfoFed'>" . "{$row['usersUid']}" . "</div><br>" . "Email............. " . "<div class='profilInfoFed'>" . "{$row['usersEmail']}" . "</div><br>" . "Users ID:........ " . "<div class='profilInfoFed'>" . "{$row['usersId']}" . "</div><br></span>";
+            echo "<span class='profilInfo'>" . "Navn:............ " . "<div class='profilInfoFed'>" . "{$row['usersName']}" . "</div><br>" . "Cpr:............... " . "<div class='profilInfoFed'>" . "{$row['usersCpr']}" . "</div><br>" . "Username:..... " . "<div class='profilInfoFed'>" . "{$row['usersUid']}" . "</div><br>" . "Email............... " . "<div class='profilInfoFed'>" . "{$row['usersEmail']}" . "</div><br>" . "Fødselsdag:..... " . "<div class='profilInfoFed'>" . "{$row['usersBirthday']}" . "</div><br>" . "Køn:................... " . "<div class='profilInfoFed'>" . "{$row['usersSex']}" . "</div><br>" . "Adresse:............. " . "<div class='profilInfoFed'>" . "{$row['usersAddress']}" . "</div><br>" . "Postnummer:...... " . "<div class='profilInfoFed'>" . "{$row['usersPostal']}" . "</div><br>" . "By:......................... " . "<div class='profilInfoFed'>" . "{$row['usersCity']}" . "</div><br>" . "</span>";
          }
        }
 else {
