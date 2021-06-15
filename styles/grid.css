@@ -1,7 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 10px;
 }
 
@@ -13,6 +13,14 @@
   background-color: white;
 }
 
-.bil1 {
-  align-self: center;
+.bil1 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil1 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
 }
