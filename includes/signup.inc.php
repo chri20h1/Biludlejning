@@ -4,7 +4,6 @@ if (isset($_POST["submit"])) {
 
   // Få data fra "form" html
   $name = $_POST["name"];
-  $klasse = $_POST["klasse"];
   $email = $_POST["email"];
   $username = $_POST["uid"];
   $pwd = $_POST["pwd"];
@@ -20,7 +19,7 @@ if (isset($_POST["submit"])) {
   // Vi har sat funktionerne til "!== false" da "=== true" har en risiko for, at give os et forkert resultat
 
   // Hvis der er tomme felter --> exit
-  if (emptyInputSignup($name, $klasse, $email, $username, $pwd, $pwdRepeat) !== false) {
+  if (emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false) {
     header("location: ../signup.php?error=emptyinput");
 		exit();
   }
@@ -48,7 +47,7 @@ if (isset($_POST["submit"])) {
   // Hvis vi når hertil betyder det, at der er ingen fejl begået af brugeren ved signup
 
   // Nu indsætter vi brugeren i databasen "users"
-  createUser($conn, $name, $klasse, $email, $username, $pwd);
+  createUser($conn, $name, $email, $username, $pwd);
 
 } else {
 	header("location: ../signup.php");
