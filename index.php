@@ -18,7 +18,7 @@
 
        <div class="grid">
          <div class="title">
-<p> Velkommen til TGP bedre kendt som tietgen game portal, det er her hvor du kan konkurre
+<p> Velkommen til TGP bedre kendt  som tietgen game portal, det er her hvor du kan konkurre
  mod din egen og andres klasse, vis du er den bedste på skolen ved at ligge øverst på leaderboardet, hver måned vil der blive kåret en vinder som
 er en meget stor ære</p>
          </div>
