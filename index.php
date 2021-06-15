@@ -9,7 +9,7 @@
 
        <?php
         if (isset($_SESSION['useruid'])) {
-          echo '<section class="section-default"><p class="login-status">Tiegten Game Portal</p></section>';
+          echo '<section class="section-default"><p class="login-status">Dine forslag</p></section>';
        }
         else {
           echo '<img class="forside" src="img/tietPic.png" alt="logo" width="100%" height="100%">';
@@ -17,27 +17,17 @@
        ?>
 
        <div class="grid">
-         <div class="title">
-<p> Velkommen til TGP bedre kendt  som tietgen game portal, det er her hvor du kan konkurre
- mod din egen og andres klasse, vis du er den bedste på skolen ved at ligge øverst på leaderboardet, hver måned vil der blive kåret en vinder som
-er en meget stor ære</p>
-         </div>
-         <div class="score">
-<p>Sidste måneds vinder: XXXX</p>
-<p>All time highscore: XXXX, XXXXXX</p>
-         </div>
-         <div class="game">
-<p>Hvis du vil prøve at slå highscoren for denne måned kan du klike her</p>
-<br>
-<p><a href="games.php" class="button1">Snake</a></p>
-         </div>
-         <div class="footer">
-<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
-         </div>
-       </div>
+         <div class="bil1"> <img src="img/bil1.png" style="width: 257px; height: 200px;"> <p>Toyata mini</p></div>
+          <div class="bil2">Bil 2</div>
+          <div class="bil3">Bil 3</div>
+          <div class="bil4">Bil 4</div>
+          <div class="bil5">Bil 5</div>
+          <div class="bil6">Bil 6</div>
+          <div class="bil7">Bil 7</div>
+          <div class="bil8">Bil 8</div>
+
+
+      </div>
 
       </div>
      </main>
