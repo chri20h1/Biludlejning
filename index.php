@@ -17,7 +17,7 @@
        ?>
 
        <div class="grid">
-         <div class="bil1"> <img src="img/bil1.png" style="width: 257px; height: 200px;"> <p>Toyata mini</p></div>
+         <div class="bil1"> <img src="img/bil1.png" style="width: 257px; height: 200px;"> <p>Toyata mini |</p> <h1>85.000kr</h1> </div>
           <div class="bil2">Bil 2</div>
           <div class="bil3">Bil 3</div>
           <div class="bil4">Bil 4</div>
