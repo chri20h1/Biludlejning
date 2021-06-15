@@ -32,25 +32,24 @@
 @media screen and (max-width: 1040px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 258px 258px 258px;
     grid-template-rows: 200px 200px;
-    grid-gap: 25px;
+
+    justify-content: space-between;
   }
 }
 
 @media screen and (max-width: 709px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 258px 258px;
     grid-template-rows: 200px 200px;
-    grid-gap: 25px;
   }
 
   @media screen and (max-width: 475px) {
     .grid {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 258px;
       grid-template-rows: 200px 200px;
-      grid-gap: 10px;
     }
 }
