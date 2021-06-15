@@ -1,7 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
   grid-gap: 10px;
 }
 
@@ -19,6 +19,90 @@
 }
 
 .bil1 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil2 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil2 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil3 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil3 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil4 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil4 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil5 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil5 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil6 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil6 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil7 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil7 h1 {
+  display: inline-block;
+  text-align: right;
+  background-color: #3471F4;
+  color: white;
+}
+
+.bil8 p {
+  display: inline-block;
+  text-align: right;
+}
+
+.bil8 h1 {
   display: inline-block;
   text-align: right;
   background-color: #3471F4;
