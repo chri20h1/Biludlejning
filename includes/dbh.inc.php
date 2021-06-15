@@ -5,7 +5,7 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "biludlejningdb";
+$dBName = "eksamensprojektdb";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
