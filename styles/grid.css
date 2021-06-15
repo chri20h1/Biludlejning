@@ -29,7 +29,7 @@
   outline-color: #C7f2ff;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1040px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 709px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
