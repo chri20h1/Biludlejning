@@ -12,7 +12,7 @@
           echo '<section class="section-default"><p class="login-status">Dine forslag</p></section>';
        }
         else {
-          echo '<img class="forside" src="img/tietPic.png" alt="logo" width="100%" height="100%">';
+  
         }
        ?>
 
