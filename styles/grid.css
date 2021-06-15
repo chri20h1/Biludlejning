@@ -34,7 +34,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
-    grid-gap: 10px;
+    grid-gap: 25px;
   }
 }
 
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px;
-    grid-gap: 10px;
+    grid-gap: 25px;
   }
 
   @media screen and (max-width: 475px) {
