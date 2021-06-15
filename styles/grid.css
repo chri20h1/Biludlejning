@@ -13,100 +13,20 @@
   background-color: white;
 }
 
-.bil1 p {
+.bil p {
   display: inline-block;
   text-align: right;
 }
-
-.bil1 h1 {
+.bil h1 {
   display: inline-block;
   text-align: right;
   background-color: #7899DF;
   color: white;
 }
 
-.bil2 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil2 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil3 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil3 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil4 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil4 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil5 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil5 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil6 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil6 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil7 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil7 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
-}
-
-.bil8 p {
-  display: inline-block;
-  text-align: right;
-}
-
-.bil8 h1 {
-  display: inline-block;
-  text-align: right;
-  background-color: #7899DF;
-  color: white;
+.bil {
+  outline-style: groove;
+  outline-color: #C7f2ff;
 }
 
 @media screen and (max-width: 990px) {
