@@ -6,7 +6,7 @@ if (isset($_POST["submit"])) {
   $username = $_POST["uid"];
   $pwd = $_POST["pwd"];
 
-  // Derefter kører vi en masse "error handlers", som fanger fejl brugeren har begået såsom brugt brugernavn eller tomme felter
+  // Derefter vi en masse "error handler", som fanger fejl brugeren har begået
   // Funktionerne kan findes i functions.inc.php
 
   require_once "dbh.inc.php";

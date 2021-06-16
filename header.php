@@ -63,7 +63,7 @@
                 <li class="nav__item"><a href="index.php">Hjem</a></li>
                 <li class="nav__item"><a href="inventar.php">Biler</a></li>
                 <li class="nav__item"><a href="udlejninger.php">Mine Udlejninger</a></li>
-                <li class="nav__item"><a href="about.php">Om os</a></li>
+                <li class="nav__item"><a href="demo.php">Demo site</a></li>
               </ul>
             </nav>
           </div>
