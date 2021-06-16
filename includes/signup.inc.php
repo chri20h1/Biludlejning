@@ -54,6 +54,7 @@ if (isset($_POST["submit"])) {
 
   // Nu indsætter vi brugeren i databasen "users"
   createUser($conn, $social, $name, $email, $username, $pwd, $birthday, $sex, $address, $postal, $city);
+  
 
 } else {
 	header("location: ../signup.php");

@@ -59,6 +59,7 @@
       }
       else if ($_GET["error"] == "none") {
         echo "<div class='errorM'>Du er nu oprettet!</div></p>";
+
       }
     }
   ?>
