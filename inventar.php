@@ -8,6 +8,7 @@
          <?php if (isset($_SESSION['useruid'])) : ?>
 
             <p class="login-status">Du er logget på!!!!</p>
+            <img src="img/Skitsebil.png" style="width: 100%; height: 100%;">
 
           <?php else : ?>
 
