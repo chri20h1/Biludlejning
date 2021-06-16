@@ -18,7 +18,7 @@
                    <div class="bil"> <img src="img/bil4.jpg" style="width: 258px; height: 180px;"> <p>Renault quick |</p> <h1>55.000kr</h1></div>
                    <div class="bil"> <img src="img/bil5.jpeg" style="width: 258px; height: 180px;"> <p>Gamle Ole |</p> <h1>123.000kr</h1></div>
                    <div class="bil"> <img src="img/bil6.jpg" style="width: 258px; height: 180px;"> <p>Mercedes future |</p> <h1>1.200.000kr</h1></div>
-                   <div class="bil"> <img src="img/bil7.jpg" style="width: 258px; height: 180px;"> <p>Pegeo.t 102 |</p> <h1>45.000kr</h1></div>
+                   <div class="bil"> <img src="img/bil7.jpg" style="width: 258px; height: 180px;"> <p>Pegeot 102 |</p> <h1>45.000kr</h1></div>
                    <div class="bil"> <img src="img/bil8.jpg" style="width: 258px; height: 180px;"> <p>Skoda activa |</p> <h1>100.000kr</h1></div>
                </div>
 
