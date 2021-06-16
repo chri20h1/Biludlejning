@@ -6,7 +6,7 @@
      <div class="wrapper-main">
          <?php if (isset($_SESSION['useruid'])) : ?>
 
-            <img src="img/Skitsebil.png" style="width: 100%; height: 100%;">
+            <img src="img/bilskite2.png" style="width: 100%; height: 100%;">
 
           <?php else : ?>
 
